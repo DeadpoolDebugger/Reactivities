@@ -1,0 +1,2 @@
+## Backend Cleanup and Simplification
+Before diving deeper, we will simplify our backend setup by removing unnecessary files and services. This will make our application cleaner and easier to understand.
