@@ -9,7 +9,7 @@ This project is built using:
 
 The purpose of this application is to demonstrate the **modern approach to application development** using **Clean Architecture** and other best practices that are commonly adopted in enterprise-level projects.
 
-<h2>Documentation</h2>
+<h2>:ledger: Documentation</h2>
 
 The complete documentation for this application is provided from scratch, covering the entire process from project setup to the final implementation.
 
