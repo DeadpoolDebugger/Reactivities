@@ -24,5 +24,5 @@ The solution is organized into four projects:
 ## :rocket: Getting Started
 
 ### Step 1: API Walking Skeleton
-   > [Create Solution and Project Structure](https://github.com/DeadpoolDebugger/Reactivities/blob/main/wiki/Backend/s1_ws_project_solution.md)
+   > [Create Solution and Project Structure](https://github.com/DeadpoolDebugger/Reactivities/blob/main/wiki/Backend/s1_ws_project_solution.md)<br/>
    > [Backend Cleanup and Simplification](https://github.com/DeadpoolDebugger/Reactivities/blob/main/wiki/Backend/s2_ws_cleanup.md)
