@@ -23,4 +23,4 @@ The solution is organized into four projects:
   
 ## :rocket: Getting Started
 
-### Step 1: Create Solution and Project Structure
+### Step 1: [Create Solution and Project Structure](https://github.com/DeadpoolDebugger/Reactivities/blob/main/wiki/Backend/S1_project_solution.md)
