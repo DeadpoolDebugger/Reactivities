@@ -26,3 +26,4 @@ The solution is organized into four projects:
 ### Step 1: API Walking Skeleton
    > [Create Solution and Project Structure](https://github.com/DeadpoolDebugger/Reactivities/blob/main/wiki/Backend/s1_ws_project_solution.md)<br/>
    > [Backend Cleanup and Simplification](https://github.com/DeadpoolDebugger/Reactivities/blob/main/wiki/Backend/s2_ws_cleanup.md)
+   > [Domain and DbContext](https://github.com/DeadpoolDebugger/Reactivities/blob/main/wiki/Backend/s3_ws_domain_dbcontext.md)
