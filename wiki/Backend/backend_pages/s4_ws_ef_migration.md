@@ -14,8 +14,9 @@ Run the following commands from the **solution root folder**:
 ```bash
 dotnet ef migrations add InitialCreate -p Persistence -s API
 ```
-    - `-p Persistence` → Specifies the **Persistence project** where migrations will be stored.<br/>
-    - `-s API` → Specifies the **startup project (API)** which provides configuration and dependency injection<br/>
+- `-p Persistence` → Specifies the **Persistence project** where migrations will be stored.<br/>
+- `-s API` → Specifies the **startup project (API)** which provides configuration and dependency injection. <br/>
+
 This will generate a **Migrations** folder inside the **Persistence** project.
 
 Next, update the database:
@@ -100,11 +101,12 @@ Now, run the application using:
 ```bash
 dotnet watch
 ```
-    - EF Core will create/update the database.<br/>
-    - The seeding logic will populate the Activities table with initial data.<br/>
-    - The API is now ready to serve requests with seeded records.<br/>
+- EF Core will create/update the database.<br/>
+- The seeding logic will populate the Activities table with initial data.<br/>
+- The API is now ready to serve requests with seeded records.<br/>
+##
 
 :white_check_mark: At this point, you have:<br/>
-    - Created and applied EF migrations.<br/>
-    - Configured automatic database migration and seeding at startup.<br/>
-    - Ensured that the application runs with default Activity records.<br/>
+- Created and applied EF migrations.<br/>
+- Configured automatic database migration and seeding at startup.<br/>
+- Ensured that the application runs with default Activity records.<br/>
