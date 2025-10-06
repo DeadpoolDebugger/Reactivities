@@ -106,7 +106,7 @@ dotnet watch
 - The API is now ready to serve requests with seeded records.<br/>
 ##
 
-:white_check_mark: At this point, you have:<br/>
+:white_check_mark: At this point, we have:<br/>
 - Created and applied EF migrations.<br/>
 - Configured automatic database migration and seeding at startup.<br/>
 - Ensured that the application runs with default Activity records.<br/>

@@ -28,3 +28,4 @@ The solution is organized into four projects:
    > [Backend Cleanup and Simplification](https://github.com/DeadpoolDebugger/Reactivities/blob/main/wiki/Backend/backend_pages/s2_ws_cleanup.md)<br/>
    > [Domain and DbContext](https://github.com/DeadpoolDebugger/Reactivities/blob/main/wiki/Backend/backend_pages/s3_ws_domain_dbcontext.md)<br/>
    > [EF Core Migration](https://github.com/DeadpoolDebugger/Reactivities/blob/main/wiki/Backend/backend_pages/s4_ws_ef_migration.md)<br/>
+   > [Add Controller](https://github.com/DeadpoolDebugger/Reactivities/blob/main/wiki/Backend/backend_pages/s5_ws_controller.md)<br/>
