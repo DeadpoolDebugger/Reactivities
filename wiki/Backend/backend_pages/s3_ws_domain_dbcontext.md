@@ -88,3 +88,5 @@ In **API/appsettings.Development.json**, add the connection string:
   }
 }
 ```
+
+:white_check_mark: At this stage, the project is set up with EF Core and ready to run **migrations** to create the database schema.
