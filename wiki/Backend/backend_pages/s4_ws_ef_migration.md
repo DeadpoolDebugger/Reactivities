@@ -96,7 +96,7 @@ catch (Exception ex)
 app.Run();
 ```
 ##
-### 6. Run the Application
+### 5. Run the Application
 Now, run the application using:
 ```bash
 dotnet watch
@@ -105,8 +105,9 @@ dotnet watch
 - The seeding logic will populate the Activities table with initial data.<br/>
 - The API is now ready to serve requests with seeded records.<br/>
 ##
-
 :white_check_mark: At this point, we have:<br/>
 - Created and applied EF migrations.<br/>
 - Configured automatic database migration and seeding at startup.<br/>
 - Ensured that the application runs with default Activity records.<br/>
+##
+[<< Back to Backend Main Page](https://github.com/DeadpoolDebugger/Reactivities/blob/main/wiki/Backend/BACKEND.md)
