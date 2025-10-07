@@ -1,4 +1,4 @@
-### Step 1: Create Solution and Project Structure
+### 1: Create Solution and Project Structure
 Open a terminal and run the following commands:
 
 ```bash
@@ -14,8 +14,8 @@ dotnet new classlib -n Domain
 dotnet new classlib -n Application
 dotnet new classlib -n Persistence
 ```
-
-### Step 2: Add Projects to Solution
+##
+### 2: Add Projects to Solution
 ```bash
 # Add projects to solution
 dotnet sln add API/API.csproj
@@ -23,8 +23,8 @@ dotnet sln add Domain/Domain.csproj
 dotnet sln add Application/Application.csproj
 dotnet sln add Persistence/Persistence.csproj
 ```
-
-### Step 3: Define Project References
+##
+### 3: Define Project References
 We need to link the projects in the correct order to follow **Clean Architecture**:
 
 - **API** → depends on **Application**
