@@ -24,11 +24,10 @@ public class Activity
 - `Id` is used as the primary key to ensure uniqueness accross activities.<br/>
 - **required** is used to avoid `null` reference issues.<br/>
 - This model will later be mapped to a database table using Entity Framework Core inside the        Persistence project.
-
 ___
 ## Setting up Entity Framework Core
 After creating the **Activity** model in the **Domain** project, the next step is to configure **Entity Framework Core (EF Core)** for data access. This involves installing EF Core packages, creating a `DbContext class`, and registering it in the API project.
-
+##
 ### 1. Install EF Core Packages
 Run the following commands to install the required NuGet packages:
 ```bash
@@ -88,5 +87,7 @@ In **API/appsettings.Development.json**, add the connection string:
   }
 }
 ```
-
+##
 :white_check_mark: At this stage, the project is set up with EF Core and ready to run **migrations** to create the database schema.
+##
+[<< Back to Backend Main Page](https://github.com/DeadpoolDebugger/Reactivities/blob/main/wiki/Backend/BACKEND.md)
