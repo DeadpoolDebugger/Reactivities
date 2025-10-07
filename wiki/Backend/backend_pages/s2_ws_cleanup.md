@@ -1,6 +1,6 @@
 ## Backend Cleanup and Simplification
 Before diving deeper, we will simplify our backend setup by removing unnecessary files and services. This will make our application cleaner and easier to understand.
-
+##
 ### 1. Update `launchSettings.json`
 
 In the **API** project, go to `Properties/launchSettings.json` and update it to use only **HTTPS** on port **5001**.
@@ -32,7 +32,7 @@ dotnet dev-certs https --clean   # remove existing certificates
 dotnet dev-certs https --trust   # generate and trust a new certificate
 dotnet dev-certs https --check   # verify the certificate
 ```
-___
+##
 ### 2. Remove OpenAPI/Swagger Dependencies
 
 In API.csproj, delete the following section:
@@ -42,7 +42,7 @@ In API.csproj, delete the following section:
 </ItemGroup>
 ```
 Also, delete the **Api.http** file (not required for this application).
-___
+##
 ### 3. Clean Up Program.cs
 
 Remove all unnecessary OpenAPI, HTTPS redirection, and authorization services. Your Program.cs should now look like this:
@@ -57,8 +57,7 @@ var app = builder.Build();
 app.MapControllers();
 app.Run();
 ```
-___
-
+##
 ### :white_check_mark: Final Result
 
 - No extra Swagger/OpenAPI dependencies.
@@ -66,4 +65,6 @@ ___
 - Clean Program.cs with just controllers and minimal setup.
 
 This ensures our backend is lightweight, simple, and easy to extend as we add features later.
+##
+[<< Back to Backend Main Page](https://github.com/DeadpoolDebugger/Reactivities/blob/main/wiki/Backend/BACKEND.md)
 
